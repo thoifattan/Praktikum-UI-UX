@@ -1,0 +1,21 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { background: #fff; padding: 20px; }
+
+#wrapper {
+  position: relative;
+  width: 900px;
+  height: 490px;
+  margin: 0 auto;
+}
+
+#wrapper div { position: absolute; border: 1px solid #333; }
+
+#kuning { top: 0; left: 0;     width: 140px; height: 50px; background: #f7ec4a; }
+#oranye { top: 0; left: 150px; right: 0;     height: 50px; background: #ff6624; }
+
+#hijau  { top: 60px; left: 0;     width: 140px; height: 360px; background: #aedd94; }
+#abu    { top: 60px; left: 150px; right: 150px; height: 360px; background: #d3d7da; }
+#biru   { top: 60px; right: 0;    width: 140px; height: 360px; background: #4dd8fb; }
+
+#footer { top: 430px; left: 0; right: 0; height: 60px; background: #1a5cf0; }
